@@ -115,9 +115,9 @@ def search_cars( q: str = Query(..., min_length=1)):
     results = []
     for car in cars:
         searchable_text = (
-            f"{car['make']} ",
-            f"{car['model']} ",
-            f"{car['year']} ",
+            f"{car['make']} "
+            f"{car['model']} "
+            f"{car['year']} "
             f"{car['engine']}"
         ).lower()
 
