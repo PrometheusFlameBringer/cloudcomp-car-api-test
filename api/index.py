@@ -93,21 +93,6 @@ def get_cars():
         "cars": cars
     }
 
-
-# GET ONE CAR
-@app.get("/cars/{car_id}")
-def get_car(car_id: int):
-
-    for car in cars:
-
-        if car["id"] == car_id:
-            return car
-
-    raise HTTPException(
-        status_code=404,
-        detail="Car not found."
-    )
-
 # SEARCH CARS
 @app.get("/cars/search")
 def search_cars( q: str = Query(..., min_length=1)):
@@ -129,3 +114,17 @@ def search_cars( q: str = Query(..., min_length=1)):
         "count": len(results),
         "results": results
     }
+
+# GET ONE CAR
+@app.get("/cars/{car_id}")
+def get_car(car_id: int):
+
+    for car in cars:
+
+        if car["id"] == car_id:
+            return car
+
+    raise HTTPException(
+        status_code=404,
+        detail="Car not found."
+    )
