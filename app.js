@@ -2,83 +2,81 @@ const API_URL = "https://cloudcomp-car-api-test.vercel.app";
 
 
 // GET ALL CARS
-async function loadCars() {
+async function loadBooks() {
     try {
-        const response = await fetch(`${API_URL}/cars`);
+        const response = await fetch(`${API_URL}/books`);
         const data = await response.json();
-        displayCars(data.cars);
+        displayBooks(data.books);
     }
 
     catch (error) {
         console.error(error);
-        document.getElementById("carList").innerHTML = "Unable to connect to the API.";
+        document.getElementById("bookList").innerHTML = "Unable to connect to the API.";
     }
 }
 
 
-// DISPLAY CARS
-function displayCars(cars) {
-    const carList =
-        document.getElementById("carList");
+// DISPLAY BOOKS
+function displayBooks(books) {
+    const bookList = document.getElementById("bookList");
 
-    carList.innerHTML = "";
+    bookList.innerHTML = "";
 
-    cars.forEach(car => {
+    books.forEach(book => {
         const card = document.createElement("div");
-        card.className = "car-card";
+        card.className = "book-card";
         card.innerHTML = `
-            <div class="car-year">${car.year}</div>
-            <h3>${car.make} ${car.model}</h3>
-            <p class="car-engine">${car.engine}</p>
-            <p>${car.horsepower} horsepower</p>
-            <p>${car.description}</p>
-            <button onclick="viewCar(${car.id})"> View Details</button>
+            <div class="book-year">${book.year}</div>
+            <h3>${book.title}</h3>
+            <p class="book-author">${book.author}</p>
+            <p class="book-genre">${book.genre}</p>
+            <button onclick="viewBook(${book.id})"> View Details</button>
         `;
 
-        carList.appendChild(card);
+        bookList.appendChild(card);
     });
 
 }
 
-// GET ONE CAR
-async function viewCar(id) {
+// GET ONE BOOK
+async function viewBook(id) {
 
     try {
-        const response = await fetch(`${API_URL}/cars/${id}`);
-        const car = await response.json();
+        const response = await fetch(`${API_URL}/books/${id}`);
+        const book = await response.json();
 
         alert(`
-            ${car.year} ${car.make} ${car.model}
+            ${book.year} ${book.title} ${book.author}
             Engine:
-            ${car.engine}
+            ${book.engine}
 
             Horsepower:
-            ${car.horsepower}
+            ${book.horsepower}
 
             Description:
-            ${car.description}
+            ${book.description}
         `);
     }
     catch (error) {
         console.error(error);
-        alert("Unable to retrieve car.");
+        alert("Unable to retrieve book.");
     }
 
 }
 
 // SEARCH
-async function searchCars() {
+async function searchBooks() {
 
     const query = document.getElementById("searchInput").value;
     if (!query) {
-        loadCars();
+        loadBooks();
         return;
     }
     try {
         const response =
-            await fetch(`${API_URL}/cars/search?q=${encodeURIComponent(query)}`);
+            await fetch(`${API_URL}/books/search?q=${encodeURIComponent(query)}`);
         const data = await response.json();
-        displayCars(data.results);
+        displayBooks(data.results);
     }
 
     catch (error) {
@@ -87,4 +85,4 @@ async function searchCars() {
     }
 }
 
-loadCars();
+loadBooks();

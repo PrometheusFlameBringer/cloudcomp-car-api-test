@@ -2,8 +2,8 @@ from fastapi import FastAPI, HTTPException, Header, Query
 from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI(
-    title="Simple Car API",
-    description="A beginner-friendly REST API containing information about cars.",
+    title="Simple Book API",
+    description="A beginner-friendly REST API containing information about books.",
     version="1.0.0"
 )
 
@@ -15,57 +15,57 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# CAR DATA
-cars = [
+# BOOK DATA
+books = [
 
     {
         "id": 1,
-        "make": "Toyota",
-        "model": "Corolla",
-        "year": 1998,
-        "engine": "1.6L 4-cylinder",
-        "horsepower": 105,
-        "description": "A practical and reliable compact sedan."
+        "title": "The Count of Monte Cristo",
+        "author": "Alexandre Dumas",
+        "year": 1846,
+        "genre": "Adventure",
+        "rating": 4.34,
+        "description": "A tale of revenge and redemption."
     },
 
     {
         "id": 2,
-        "make": "Honda",
-        "model": "Civic Si",
-        "year": 1999,
-        "engine": "1.6L 4-cylinder",
-        "horsepower": 160,
-        "description": "A sporty compact car popular with enthusiasts."
+        "title": "The Three Musketeers",
+        "author": "Alexandre Dumas",
+        "year": 1844,
+        "genre": "Adventure",
+        "rating": 4.1,
+        "description": "A tale of friendship and adventure in 17th-century France."
     },
 
     {
         "id": 3,
-        "make": "Mitsubishi",
-        "model": "Eclipse GSX",
-        "year": 1999,
-        "engine": "2.0L Turbo 4-cylinder",
-        "horsepower": 210,
-        "description": "A turbocharged AWD coupe built for performance."
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "year": 1925,
+        "genre": "Fiction",
+        "rating": 3.93,
+        "description": "A classic American novel set in the Jazz Age."
     },
 
     {
         "id": 4,
-        "make": "Subaru",
-        "model": "Impreza WRX",
-        "year": 2002,
-        "engine": "2.0L Turbo 4-cylinder",
-        "horsepower": 227,
-        "description": "A turbocharged AWD performance sedan."
+        "title": "El filibusterismo",
+        "author": "José Rizal",
+        "year": 1891,
+        "genre": "Fiction",
+        "rating": 4.26,
+        "description": "The continuation of the story of Noli Me Tangere, focusing on darker themes."
     },
 
     {
         "id": 5,
-        "make": "Mazda",
-        "model": "MX-5 Miata",
-        "year": 2001,
-        "engine": "1.8L 4-cylinder",
-        "horsepower": 142,
-        "description": "A lightweight two-seat roadster famous for its handling."
+        "title": "Little Women",
+        "author": "Louisa May Alcott",
+        "year": 1868,
+        "genre": "Fiction",
+        "rating": 4.3,
+        "description": "A coming-of-age story of four sisters detailing their passage from childhood to womanhood."
     }
 
 ]
@@ -75,39 +75,39 @@ cars = [
 def home():
 
     return {
-        "message": "Welcome to the Simple Car API!",
+        "message": "Welcome to the Simple Book API!",
         "endpoints": [
-            "/cars",
-            "/cars/{id}",
-            "/cars/search"
+            "/books",
+            "/books/{id}",
+            "/books/search"
         ]
     }
 
 
-# GET ALL CARS
-@app.get("/cars")
-def get_cars():
+# GET ALL BOOKS
+@app.get("/books")
+def get_books():
 
     return {
-        "count": len(cars),
-        "cars": cars
+        "count": len(books),
+        "books": books
     }
 
-# SEARCH CARS
-@app.get("/cars/search")
-def search_cars( q: str = Query(..., min_length=1)):
+# SEARCH BOOKS
+@app.get("/books/search")
+def search_books( q: str = Query(..., min_length=1)):
     q = q.lower()
     results = []
-    for car in cars:
+    for book in books:
         searchable_text = (
-            f"{car['make']} "
-            f"{car['model']} "
-            f"{car['year']} "
-            f"{car['engine']}"
+            f"{book['title']} "
+            f"{book['author']} "
+            f"{book['genre']}"
+            f"{book['year']}"
         ).lower()
 
         if q in searchable_text:
-            results.append(car)
+            results.append(book)
 
     return {
         "query": q,
@@ -115,16 +115,16 @@ def search_cars( q: str = Query(..., min_length=1)):
         "results": results
     }
 
-# GET ONE CAR
-@app.get("/cars/{car_id}")
-def get_car(car_id: int):
+# GET ONE BOOK
+@app.get("/books/{book_id}")
+def get_book(book_id: int):
 
-    for car in cars:
+    for book in books:
 
-        if car["id"] == car_id:
-            return car
+        if book["id"] == book_id:
+            return book
 
     raise HTTPException(
         status_code=404,
-        detail="Car not found."
+        detail="Book not found."
     )
