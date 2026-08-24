@@ -28,7 +28,7 @@ function displayBooks(books) {
         card.innerHTML = `
             <div class="book-year">${book.year}</div>
             <h3>${book.title}</h3>
-            <p class="book-author">${book.author}</p>
+            <p class="book-author">By: ${book.author}</p>
             <p class="book-genre">${book.genre}</p>
             <button onclick="viewBook(${book.id})"> View Details</button>
         `;
