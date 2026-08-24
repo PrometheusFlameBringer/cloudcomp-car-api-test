@@ -66,6 +66,16 @@ books = [
         "genre": "Fiction",
         "rating": 4.3,
         "description": "A coming-of-age story of four sisters detailing their passage from childhood to womanhood."
+    },
+
+    {
+        "id": 6,
+        "title": "Lord of the Flies",
+        "author": "William Golding",
+        "year": 1954,
+        "genre": "Dystopia",
+        "rating": 3.7,
+        "description": "A novel about a group of boys stranded on an uninhabited island."
     }
 
 ]
