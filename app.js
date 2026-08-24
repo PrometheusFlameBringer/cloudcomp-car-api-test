@@ -30,7 +30,7 @@ function displayCars(cars) {
             <div class="car-year">${car.year}</div>
             <h3>${car.make} ${car.model}</h3>
             <p class="car-engine">${car.engine}</p>
-            <p>${car.horsepower} horsepower/p>
+            <p>${car.horsepower} horsepower</p>
             <p>${car.description}</p>
             <button onclick="viewCar(${car.id})"> View Details</button>
         `;
