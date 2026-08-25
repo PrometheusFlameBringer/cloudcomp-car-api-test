@@ -46,12 +46,16 @@ async function viewBook(id) {
         const book = await response.json();
 
         alert(`
-            ${book.year} ${book.title} ${book.author}
-            Engine:
-            ${book.engine}
+            ${book.title}
+           
+            Written by:
+            ${book.author}
 
-            Horsepower:
-            ${book.horsepower}
+            Year published:
+            ${book.year}
+
+            Genre:
+            ${book.genre}
 
             Description:
             ${book.description}
