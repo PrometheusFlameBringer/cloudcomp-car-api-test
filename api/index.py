@@ -236,12 +236,19 @@ books = [
 
     {
         "id": 13,
-        "title": "Lord of the Flies",
-        "author": "William Golding",
-        "year": 1954,
-        "genre": "Dystopia",
-        "rating": 3.7,
-        "logline": "A novel about a group of boys stranded on an uninhabited island."
+        "title": "The Hunger Games",
+        "author": "Suzanne Collins",
+        "year": 2008,
+        "genre": "Adventure",
+        "rating": 4.35,
+        "logline": "Winning means fame and fortune. Losing means certain death. The Hunger Games have begun. . . .",
+        "main-characters": "Katniss Everdeen, Peeta Mellark, Gale Hawthorne, Haymitch Abernathy, Primrose Everdeen",
+        "audiobook-duration": "10 Hour and 35 Minutes",
+        "page-number": "374",
+        "word-count": "59,690",
+        "language": "English", 
+        "synopsis": "In the ruins of a place once known as North America lies the nation of Panem, a shining Capitol surrounded by twelve outlying districts. The Capitol is harsh and cruel and keeps the districts in line by forcing them all to send one boy and one girl between the ages of twelve and eighteen to participate in the annual Hunger Games, a fight to the death on live TV. Sixteen-year-old Katniss Everdeen regards it as a death sentence when she steps forward to take her sister's place in the Games. But Katniss has been close to dead before-and survival, for her, is second nature. Without really meaning to, she becomes a contender. But if she is to win, she will have to start making choices that weigh survival against humanity and life against love.",
+        "publication-place": "United States"
     },
 
     {
