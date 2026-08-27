@@ -243,7 +243,7 @@ books = [
         "rating": 4.35,
         "logline": "Winning means fame and fortune. Losing means certain death. The Hunger Games have begun. . . .",
         "main-characters": "Katniss Everdeen, Peeta Mellark, Gale Hawthorne, Haymitch Abernathy, Primrose Everdeen",
-        "audiobook-duration": "10 Hour and 35 Minutes",
+        "audiobook-duration": "10 Hours and 35 Minutes",
         "page-number": "374",
         "word-count": "59,690",
         "language": "English", 
@@ -253,32 +253,50 @@ books = [
 
     {
         "id": 14,
-        "title": "Lord of the Flies",
-        "author": "William Golding",
-        "year": 1954,
-        "genre": "Dystopia",
-        "rating": 3.7,
-        "logline": "A novel about a group of boys stranded on an uninhabited island."
+        "title": "Twisted Hate",
+        "author": "Ana Huang",
+        "year": 2022,
+        "genre": "Romance",
+        "rating": 3.93,
+        "logline": "A cocky medical resident and his best friend's stubborn law-student nemesis who enter a no-strings-attached arrangement, only to have their fiery mutual hatred threatened by undeniable attraction and dark pasts.",
+        "main-characters": "Jules Ambrose and Josh Chen",
+        "audiobook-duration": "15 Hours",
+        "page-number": "500",
+        "word-count": "137,340",
+        "language": "English", 
+        "synopsis": "He hates her… almost as much as he wants her.\nGorgeous, cocky, and fast on his way to becoming a hotshot doctor, Josh Chen has never met a woman he couldn't charm—except for Jules f**king Ambrose.\nThe beautiful redhead has been a thorn in his side since they met, but she also consumes his thoughts in a way no woman ever has.\nWhen their animosity explodes into one unforgettable night, he proposes a solution that'll get her out of his system once and for all: an enemies with benefits arrangement with simple rules.\nNo jealousy.\nNo strings attached.\nAnd absolutely no falling in love.\nOutgoing and ambitious, Jules Ambrose is a former party girl who's focused on one thing: passing the attorney's bar exam.\nThe last thing she needs is to get involved with a doctor who puts the SUFFER in insufferable…no matter how good-looking he is.\nBut the more she gets to know him, the more she realizes there's more than meets the eye to the man she's hated for so long. Her best friend's brother.\nHer nemesis.\nAnd her only salvation.\nTheirs is a match made in hell, and when the demons from their past catch up with them, they're faced with truths that could either save them… or destroy everything they've worked for.",
+        "publication-place": "United States, United Kingdom, and Australia"
     },
 
     {
         "id": 15,
-        "title": "Lord of the Flies",
-        "author": "William Golding",
-        "year": 1954,
-        "genre": "Dystopia",
-        "rating": 3.7,
-        "logline": "A novel about a group of boys stranded on an uninhabited island."
+        "title": "Love on the Brain",
+        "author": "Ali Hazelwood",
+        "year": 2022,
+        "genre": "Contemporary Romance",
+        "rating": 3.9,
+        "logline": "When a brilliant neuroscientist lands her dream NASA project, she must co-lead it with her fierce graduate school archenemy, only to discover that professional tension might just spark an explosive romance.",
+        "audiobook-duration": "11 Hours and 7 Minutes",
+        "page-number": "368",
+        "word-count": "98,316",
+        "language": "English", 
+        "synopsis": "Bee Königswasser lives by a simple code: What would Marie Curie do? If NASA offered her the lead on a neuroengineering project - a literal dream come true - Marie would accept without hesitation. Duh. But the mother of modern physics never had to co-lead with Levi Ward.\nSure, Levi is attractive in a tall, dark, and piercing-eyes kind of way. But Levi made his feelings toward Bee very clear in grad school - archenemies work best employed in their own galaxies far, far away.\nBut when her equipment starts to go missing and the staff ignore her, Bee could swear she sees Levi softening into an ally, backing her plays, seconding her ideas... devouring her with those eyes. The possibilities have all her neurons firing.\nBut when it comes time to actually make a move and put her heart on the line, there's only one question that matters: What will Bee Königswasser do?",
+        "publication-place": "United States"
     },
 
     {
         "id": 16,
-        "title": "Lord of the Flies",
-        "author": "William Golding",
-        "year": 1954,
-        "genre": "Dystopia",
-        "rating": 3.7,
-        "logline": "A novel about a group of boys stranded on an uninhabited island."
+        "title": "The Hating Game",
+        "author": "Sally Thorne",
+        "year": 2016,
+        "genre": "Contemporary Romance",
+        "rating": 3.85,
+        "logline": "Trapped in a shared office, two rival executive assistants at a publishing company must compete for a major promotion, but their intense mutual animosity turns to unexpected chemistry when a high-stakes battle of wills crosses the line into desire.",
+        "page-number": "365",
+        "word-count": "107,305",
+        "language": "English", 
+        "synopsis": "Nemesis (n.)\n1) An opponent or rival whom a person cannot best or overcome;\n2) A person’s undoing;\n3) Joshua Templeman.\nLucy Hutton and Joshua Templeman hate each other. Not dislike. Not begrudgingly tolerate. Hate. And they have no problem displaying their feelings through a series of ritualistic passive aggressive maneuvers as they sit across from each other, executive assistants to co-CEOs of a publishing company. Lucy can’t understand Joshua’s joyless, uptight, meticulous approach to his job. Joshua is clearly baffled by Lucy’s overly bright clothes, quirkiness, and Pollyanna attitude.\nNow up for the same promotion, their battle of wills has come to a head and Lucy refuses to back down when their latest game could cost her her dream job…But the tension between Lucy and Joshua has also reached its boiling point, and Lucy is discovering that maybe she doesn’t hate Joshua. And maybe, he doesn’t hate her either. Or maybe this is just another game.",
+        "publication-place": "United States"
     },
 
     {
@@ -288,7 +306,12 @@ books = [
         "year": 1954,
         "genre": "Dystopia",
         "rating": 3.7,
-        "logline": "A novel about a group of boys stranded on an uninhabited island."
+        "logline": "A novel about a group of boys stranded on an uninhabited island.",
+        "page-number": "365",
+        "word-count": "107,305",
+        "language": "English", 
+        "synopsis": "Nemesis (n.)\n1) An opponent or rival whom a person cannot best or overcome;\n2) A person's undoing;\n3) Joshua Templeman.\nLucy Hutton and Joshua Templeman hate each other. Not dislike. Not begrudgingly tolerate. Hate. And they have no problem displaying their feelings through a series of ritualistic passive aggressive maneuvers as they sit across from each other, executive assistants to co-CEOs of a publishing company. Lucy can't understand Joshua's joyless, uptight, meticulous approach to his job. Joshua is clearly baffled by Lucy's overly bright clothes, quirkiness, and Pollyanna attitude.\nNow up for the same promotion, their battle of wills has come to a head and Lucy refuses to back down when their latest game could cost her her dream job…But the tension between Lucy and Joshua has also reached its boiling point, and Lucy is discovering that maybe she doesn't hate Joshua. And maybe, he doesn't hate her either. Or maybe this is just another game.",
+        "publication-place": "United States"
     },
 
     {
@@ -298,7 +321,12 @@ books = [
         "year": 1954,
         "genre": "Dystopia",
         "rating": 3.7,
-        "logline": "A novel about a group of boys stranded on an uninhabited island."
+        "logline": "A novel about a group of boys stranded on an uninhabited island.",
+        "page-number": "365",
+        "word-count": "107,305",
+        "language": "English", 
+        "synopsis": "Nemesis (n.)\n1) An opponent or rival whom a person cannot best or overcome;\n2) A person's undoing;\n3) Joshua Templeman.\nLucy Hutton and Joshua Templeman hate each other. Not dislike. Not begrudgingly tolerate. Hate. And they have no problem displaying their feelings through a series of ritualistic passive aggressive maneuvers as they sit across from each other, executive assistants to co-CEOs of a publishing company. Lucy can't understand Joshua's joyless, uptight, meticulous approach to his job. Joshua is clearly baffled by Lucy's overly bright clothes, quirkiness, and Pollyanna attitude.\nNow up for the same promotion, their battle of wills has come to a head and Lucy refuses to back down when their latest game could cost her her dream job…But the tension between Lucy and Joshua has also reached its boiling point, and Lucy is discovering that maybe she doesn't hate Joshua. And maybe, he doesn't hate her either. Or maybe this is just another game.",
+        "publication-place": "United States"
     },
 
     {
@@ -308,7 +336,12 @@ books = [
         "year": 1954,
         "genre": "Dystopia",
         "rating": 3.7,
-        "logline": "A novel about a group of boys stranded on an uninhabited island."
+        "logline": "A novel about a group of boys stranded on an uninhabited island.",
+        "page-number": "365",
+        "word-count": "107,305",
+        "language": "English", 
+        "synopsis": "Nemesis (n.)\n1) An opponent or rival whom a person cannot best or overcome;\n2) A person's undoing;\n3) Joshua Templeman.\nLucy Hutton and Joshua Templeman hate each other. Not dislike. Not begrudgingly tolerate. Hate. And they have no problem displaying their feelings through a series of ritualistic passive aggressive maneuvers as they sit across from each other, executive assistants to co-CEOs of a publishing company. Lucy can't understand Joshua's joyless, uptight, meticulous approach to his job. Joshua is clearly baffled by Lucy's overly bright clothes, quirkiness, and Pollyanna attitude.\nNow up for the same promotion, their battle of wills has come to a head and Lucy refuses to back down when their latest game could cost her her dream job…But the tension between Lucy and Joshua has also reached its boiling point, and Lucy is discovering that maybe she doesn't hate Joshua. And maybe, he doesn't hate her either. Or maybe this is just another game.",
+        "publication-place": "United States"
     },
 
     {
@@ -318,7 +351,12 @@ books = [
         "year": 1954,
         "genre": "Dystopia",
         "rating": 3.7,
-        "logline": "A novel about a group of boys stranded on an uninhabited island."
+        "logline": "A novel about a group of boys stranded on an uninhabited island.",
+        "page-number": "365",
+        "word-count": "107,305",
+        "language": "English", 
+        "synopsis": "Nemesis (n.)\n1) An opponent or rival whom a person cannot best or overcome;\n2) A person's undoing;\n3) Joshua Templeman.\nLucy Hutton and Joshua Templeman hate each other. Not dislike. Not begrudgingly tolerate. Hate. And they have no problem displaying their feelings through a series of ritualistic passive aggressive maneuvers as they sit across from each other, executive assistants to co-CEOs of a publishing company. Lucy can't understand Joshua's joyless, uptight, meticulous approach to his job. Joshua is clearly baffled by Lucy's overly bright clothes, quirkiness, and Pollyanna attitude.\nNow up for the same promotion, their battle of wills has come to a head and Lucy refuses to back down when their latest game could cost her her dream job…But the tension between Lucy and Joshua has also reached its boiling point, and Lucy is discovering that maybe she doesn't hate Joshua. And maybe, he doesn't hate her either. Or maybe this is just another game.",
+        "publication-place": "United States"
     }
 
 ]
