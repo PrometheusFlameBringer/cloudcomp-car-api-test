@@ -318,46 +318,49 @@ books = [
 
     {
         "id": 18,
-        "title": "Lord of the Flies",
-        "author": "William Golding",
-        "year": 1954,
-        "genre": "Dystopia",
-        "rating": 3.7,
-        "logline": "A novel about a group of boys stranded on an uninhabited island.",
-        "page-number": "365",
-        "word-count": "107,305",
+        "title": "Pack Up the Moon",
+        "author": "Kristan Higgins",
+        "year": 2021,
+        "genre": "Romance",
+        "rating": 4.15,
+        "logline": "When a devoted husband loses his terminally ill wife, he must navigate his first year of grief using a series of monthly letters she left behind to guide him back toward a life of love and laughter.",
+        "audiobook-duration": "13 Hours and 37 Minutes",
+        "page-number": "480",
+        "word-count": "123,420",
         "language": "English", 
-        "synopsis": "Nemesis (n.)\n1) An opponent or rival whom a person cannot best or overcome;\n2) A person's undoing;\n3) Joshua Templeman.\nLucy Hutton and Joshua Templeman hate each other. Not dislike. Not begrudgingly tolerate. Hate. And they have no problem displaying their feelings through a series of ritualistic passive aggressive maneuvers as they sit across from each other, executive assistants to co-CEOs of a publishing company. Lucy can't understand Joshua's joyless, uptight, meticulous approach to his job. Joshua is clearly baffled by Lucy's overly bright clothes, quirkiness, and Pollyanna attitude.\nNow up for the same promotion, their battle of wills has come to a head and Lucy refuses to back down when their latest game could cost her her dream job…But the tension between Lucy and Joshua has also reached its boiling point, and Lucy is discovering that maybe she doesn't hate Joshua. And maybe, he doesn't hate her either. Or maybe this is just another game.",
+        "synopsis": "Joshua and Lauren are the perfect couple. Newly married, they're wildly in love, each on a successful and rewarding career path. Then Lauren is diagnosed with a terminal illness.\nAs Lauren's disease progresses, Joshua struggles to make the most of the time he has left with his wife and to come to terms with his future--a future without the only woman he's ever loved. He's so consumed with finding a way to avoid the inevitable ending that he never imagines his life after Lauren.\nBut Lauren has a plan to keep her husband moving forward. A plan hidden in the letters she leaves him. In those letters, one for every month in the year after her death, Lauren leads Joshua on a journey through pain, anger, and denial. It's a journey that will take Joshua from his attempt at a dinner party for family and friends to getting rid of their bed...from a visit with a psychic medium to a kiss with a woman who isn't Lauren. As his grief makes room for laughter and new relationships, Joshua learns Lauren's most valuable lesson: The path to happiness doesn't follow a straight line.",
         "publication-place": "United States"
     },
 
     {
         "id": 19,
-        "title": "Lord of the Flies",
-        "author": "William Golding",
-        "year": 1954,
-        "genre": "Dystopia",
-        "rating": 3.7,
-        "logline": "A novel about a group of boys stranded on an uninhabited island.",
-        "page-number": "365",
-        "word-count": "107,305",
+        "title": "A Good Girl's Guide to Murder",
+        "author": "Holly Jackson",
+        "year": 2019,
+        "genre": "Mystery",
+        "rating": 4.28,
+        "logline": "Pippa \"Pip\" Fitz-Amobi investigates the murder of popular student Andrea \"Andie\" Bell and the suicide of the supposed perpetrator Salil \"Sal\" Singh under the guise of a school project. ",
+        "audiobook-duration": "10 Hours and 53 Minutes",
+        "page-number": "433",
+        "word-count": "87,763",
         "language": "English", 
-        "synopsis": "Nemesis (n.)\n1) An opponent or rival whom a person cannot best or overcome;\n2) A person's undoing;\n3) Joshua Templeman.\nLucy Hutton and Joshua Templeman hate each other. Not dislike. Not begrudgingly tolerate. Hate. And they have no problem displaying their feelings through a series of ritualistic passive aggressive maneuvers as they sit across from each other, executive assistants to co-CEOs of a publishing company. Lucy can't understand Joshua's joyless, uptight, meticulous approach to his job. Joshua is clearly baffled by Lucy's overly bright clothes, quirkiness, and Pollyanna attitude.\nNow up for the same promotion, their battle of wills has come to a head and Lucy refuses to back down when their latest game could cost her her dream job…But the tension between Lucy and Joshua has also reached its boiling point, and Lucy is discovering that maybe she doesn't hate Joshua. And maybe, he doesn't hate her either. Or maybe this is just another game.",
-        "publication-place": "United States"
+        "synopsis": "The case is closed. Five years ago, schoolgirl Andie Bell was murdered by Sal Singh. The police know he did it. Everyone in town knows he did it.\nBut having grown up in the same small town that was consumed by the crime, Pippa Fitz-Amobi isn't so sure. When she chooses the case as the topic for her final project, she starts to uncover secrets that someone in town desperately wants to stay hidden. And if the real killer is still out there, how far will they go to keep Pip from the truth…?",
+        "publication-place": "United Kingdom and United States"
     },
 
     {
         "id": 20,
-        "title": "Lord of the Flies",
-        "author": "William Golding",
-        "year": 1954,
-        "genre": "Dystopia",
-        "rating": 3.7,
-        "logline": "A novel about a group of boys stranded on an uninhabited island.",
-        "page-number": "365",
-        "word-count": "107,305",
+        "title": "The Silent Patient",
+        "author": "Alex Michaelides",
+        "year": 2019,
+        "genre": "Psychological Thriller",
+        "rating": 4.0,
+        "logline": "In an attempt to fix and understand himself, Theo takes a degree in psychology and starts working as a therapist and finds the love of his life in Kathy, an American actress who lives in London, Theo feels safe and his relationship means everything to him but it becomes increasingly clear that Kathy is traitorous.",
+        "audiobook-duration": "8 Hours and 33 Minutes",
+        "page-number": "336",
+        "word-count": "73,154",
         "language": "English", 
-        "synopsis": "Nemesis (n.)\n1) An opponent or rival whom a person cannot best or overcome;\n2) A person's undoing;\n3) Joshua Templeman.\nLucy Hutton and Joshua Templeman hate each other. Not dislike. Not begrudgingly tolerate. Hate. And they have no problem displaying their feelings through a series of ritualistic passive aggressive maneuvers as they sit across from each other, executive assistants to co-CEOs of a publishing company. Lucy can't understand Joshua's joyless, uptight, meticulous approach to his job. Joshua is clearly baffled by Lucy's overly bright clothes, quirkiness, and Pollyanna attitude.\nNow up for the same promotion, their battle of wills has come to a head and Lucy refuses to back down when their latest game could cost her her dream job…But the tension between Lucy and Joshua has also reached its boiling point, and Lucy is discovering that maybe she doesn't hate Joshua. And maybe, he doesn't hate her either. Or maybe this is just another game.",
+        "synopsis": "Alicia Berenson's life is seemingly perfect. A famous painter married to an in-demand fashion photographer, she lives in a grand house with big windows overlooking a park in one of London's most desirable areas. One evening her husband Gabriel returns home late from a fashion shoot, and Alicia shoots him five times in the face, and then never speaks another word.\nAlicia's refusal to talk, or give any kind of explanation, turns a domestic tragedy into something far grander, a mystery that captures the public imagination and casts Alicia into notoriety. The price of her art skyrockets, and she, the silent patient, is hidden away from the tabloids and spotlight at the Grove, a secure forensic unit in North London.\nTheo Faber is a criminal psychotherapist who has waited a long time for the opportunity to work with Alicia. His determination to get her to talk and unravel the mystery of why she shot her husband takes him down a twisting path into his own motivations—a search for the truth that threatens to consume him....",
         "publication-place": "United States"
     }
 
@@ -397,6 +400,7 @@ def search_books( q: str = Query(..., min_length=1)):
             f"{book['author']} "
             f"{book['genre']}"
             f"{book['year']}"
+            f"{book['language']}"
         ).lower()
 
         if q in searchable_text:
