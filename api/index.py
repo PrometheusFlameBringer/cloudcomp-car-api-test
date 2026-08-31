@@ -44,7 +44,7 @@ books = [
         "genre": "Adventure",
         "rating": 4.1,
         "logline": "The story recounts the adventures of a young man named d'Artagnan after he leaves home to travel to Paris, hoping to join the Musketeers of the Guard.",
-        "publisher": "Alexandre Dumas",
+        "publisher": "Modern Library",
         "main-characters": "d'Artagnan, Athos, Porthos, and Aramis",
         "audiobook-duration": "19 Hours and 42 Minutes",
         "page-number": "1,276",
