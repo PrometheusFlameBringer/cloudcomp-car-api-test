@@ -218,19 +218,19 @@ books = [
 
     {
         "id": 12,
-        "title": "The Art of War",
-        "author": "Sun Tzu",
-        "year": "5th Century",
-        "genre": "Nonfiction",
-        "rating": 3.94,
-        "logline": "The Art of War is an ancient Chinese military treatise composed of 13 chapters. Each chapter is devoted to a different set of skills or arts related to warfare, finance and how they apply to military strategy and tactics.",
-        "publisher": "Sun Tzu",
-        "main-characters": "Sun Tzu",
+        "title": "One of Us Is Lying",
+        "author": "Karen M. McManus",
+        "year": "2017",
+        "genre": "Mystery Thriller",
+        "rating": 3.9,
+        "logline": "Before the end of detention Simon's dead, and according to investigators, his death wasn't an accident. On Monday, he died, but on Tuesday, he'd planned to post juicy reveals about all four of his high-profile classmates, which makes all four of them suspects in his murder. Or are they the perfect patsies for a killer who's still on the loose?",
+        "publisher": "Delacorte Press",
+        "main-characters": "Bronwyn Rojas, Nathaniel \"Nate\" Macauley, Adelaide \"Addy\" Prentiss, Cooper Clay",
         "audiobook-duration": "1 Hour and 7 Minutes",
         "page-number": "170",
         "word-count": "56,642",
         "language": "Classical Chinese",
-        "synopsis": "Twenty-Five Hundred years ago, Sun Tzu wrote this classic book of military strategy based on Chinese warfare and military thought. Since that time, all levels of military have used the teaching on Sun Tzu to warfare and civilization have adapted these teachings for use in politics, business and everyday life. The Art of War is a book which should be used to gain advantage of opponents in the boardroom and battlefield alike.",
+        "synopsis": "Pay close attention and you might solve this.\nOn Monday afternoon, five students at Bayview High walk into detention.\nBronwyn, the brain, is Yale-bound and never breaks a rule.\nAddy, the beauty, is the picture-perfect homecoming princess.\nNate, the criminal, is already on probation for dealing.\nCooper, the athlete, is the all-star baseball pitcher.\nAnd Simon, the outcast, is the creator of Bayview High's notorious gossip app.\n\nOnly, Simon never makes it out of that classroom. Before the end of detention Simon's dead. And according to investigators, his death wasn't an accident. On Monday, he died. But on Tuesday, he'd planned to post juicy reveals about all four of his high-profile classmates, which makes all four of them suspects in his murder. Or are they the perfect patsies for a killer who's still on the loose?\n\nEveryone has secrets, right? What really matters is how far you would go to protect them.",
         "publication-place": "China"
     },
 
