@@ -415,6 +415,8 @@ def search_books( q: str = Query(..., min_length=1)):
             f"{book['genre']}"
             f"{book['year']}"
             f"{book['language']}"
+            f"{book['publisher']}"
+            f"{book['publication-place']}"
         ).lower()
 
         if q in searchable_text:
