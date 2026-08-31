@@ -189,7 +189,7 @@ books = [
         "rating": 3.89,
         "logline": "Driven by themes of love, possession, revenge, and reconciliation, the novel is influenced by Romanticism and Gothic fiction.",
         "publisher": "Thomas Cautley Newby",
-        "main-characters": "Daenerys Tagarian, Sansa Stark, Jon Snow, Arya Stark, Tyrion Lannister",
+        "main-characters": "Heathcliff, Catherine Earnshaw, Edgar Linton, Ellen (Nelly) Dean",
         "audiobook-duration": "12 Hours and 32 Minutes",
         "page-number": "359",
         "word-count": "114,605",
@@ -276,6 +276,7 @@ books = [
         "genre": "Contemporary Romance",
         "rating": 3.9,
         "logline": "When a brilliant neuroscientist lands her dream NASA project, she must co-lead it with her fierce graduate school archenemy, only to discover that professional tension might just spark an explosive romance.",
+        "main-characters": "Bee Königswasser and Levi Ward",
         "audiobook-duration": "11 Hours and 7 Minutes",
         "page-number": "368",
         "word-count": "98,316",
@@ -293,10 +294,11 @@ books = [
         "audiobook-duration": "12 Hours and 18 Minutes",
         "rating": 3.85,
         "logline": "Trapped in a shared office, two rival executive assistants at a publishing company must compete for a major promotion, but their intense mutual animosity turns to unexpected chemistry when a high-stakes battle of wills crosses the line into desire.",
+        "main-characters": "Bee Königswasser and Levi Ward",
         "page-number": "365",
         "word-count": "107,305",
         "language": "English", 
-        "synopsis": "Nemesis (n.)\n1) An opponent or rival whom a person cannot best or overcome;\n2) A person’s undoing;\n3) Joshua Templeman.\nLucy Hutton and Joshua Templeman hate each other. Not dislike. Not begrudgingly tolerate. Hate. And they have no problem displaying their feelings through a series of ritualistic passive aggressive maneuvers as they sit across from each other, executive assistants to co-CEOs of a publishing company. Lucy can’t understand Joshua’s joyless, uptight, meticulous approach to his job. Joshua is clearly baffled by Lucy’s overly bright clothes, quirkiness, and Pollyanna attitude.\nNow up for the same promotion, their battle of wills has come to a head and Lucy refuses to back down when their latest game could cost her her dream job…But the tension between Lucy and Joshua has also reached its boiling point, and Lucy is discovering that maybe she doesn’t hate Joshua. And maybe, he doesn’t hate her either. Or maybe this is just another game.",
+        "synopsis": "Nemesis (n.)\n1) An opponent or rival whom a person cannot best or overcome;\n2) A person's undoing;\n3) Joshua Templeman.\nLucy Hutton and Joshua Templeman hate each other. Not dislike. Not begrudgingly tolerate. Hate. And they have no problem displaying their feelings through a series of ritualistic passive aggressive maneuvers as they sit across from each other, executive assistants to co-CEOs of a publishing company. Lucy can't understand Joshua's joyless, uptight, meticulous approach to his job. Joshua is clearly baffled by Lucy's overly bright clothes, quirkiness, and Pollyanna attitude.\nNow up for the same promotion, their battle of wills has come to a head and Lucy refuses to back down when their latest game could cost her her dream job…But the tension between Lucy and Joshua has also reached its boiling point, and Lucy is discovering that maybe she doesn't hate Joshua. And maybe, he doesn't hate her either. Or maybe this is just another game.",
         "publication-place": "United States"
     },
 
@@ -340,6 +342,7 @@ books = [
         "genre": "Mystery",
         "rating": 4.28,
         "logline": "Pippa \"Pip\" Fitz-Amobi investigates the murder of popular student Andrea \"Andie\" Bell and the suicide of the supposed perpetrator Salil \"Sal\" Singh under the guise of a school project. ",
+        "main-characters": "Pippa \"Pip\" Fitz-Amobi, Ravi Singh, and Cara Ward",
         "audiobook-duration": "10 Hours and 53 Minutes",
         "page-number": "433",
         "word-count": "87,763",
@@ -356,11 +359,12 @@ books = [
         "genre": "Psychological Thriller",
         "rating": 4.0,
         "logline": "In an attempt to fix and understand himself, Theo takes a degree in psychology and starts working as a therapist and finds the love of his life in Kathy, an American actress who lives in London, Theo feels safe and his relationship means everything to him but it becomes increasingly clear that Kathy is traitorous.",
+        "main-characters": "Theo Faber, Alicia Berenson, and Kathy",
         "audiobook-duration": "8 Hours and 33 Minutes",
         "page-number": "336",
         "word-count": "73,154",
         "language": "English", 
-        "synopsis": "Alicia Berenson's life is seemingly perfect. A famous painter married to an in-demand fashion photographer, she lives in a grand house with big windows overlooking a park in one of London's most desirable areas. One evening her husband Gabriel returns home late from a fashion shoot, and Alicia shoots him five times in the face, and then never speaks another word.\nAlicia's refusal to talk, or give any kind of explanation, turns a domestic tragedy into something far grander, a mystery that captures the public imagination and casts Alicia into notoriety. The price of her art skyrockets, and she, the silent patient, is hidden away from the tabloids and spotlight at the Grove, a secure forensic unit in North London.\nTheo Faber is a criminal psychotherapist who has waited a long time for the opportunity to work with Alicia. His determination to get her to talk and unravel the mystery of why she shot her husband takes him down a twisting path into his own motivations—a search for the truth that threatens to consume him....",
+        "synopsis": "Alicia Berenson's life is seemingly perfect. A famous painter married to an in-demand fashion photographer, she lives in a grand house with big windows overlooking a park in one of London's most desirable areas. One evening her husband Gabriel returns home late from a fashion shoot, and Alicia shoots him five times in the face, and then never speaks another word.\nAlicia's refusal to talk, or give any kind of explanation, turns a domestic tragedy into something far grander, a mystery that captures the public imagination and casts Alicia into notoriety. The price of her art skyrockets, and she, the silent patient, is hidden away from the tabloids and spotlight at the Grove, a secure forensic unit in North London.\nTheo Faber is a criminal psychotherapist who has waited a long time for the opportunity to work with Alicia. His determination to get her to talk and unravel the mystery of why she shot her husband takes him down a twisting path into his own motivations—a search for the truth that threatens to consume him...",
         "publication-place": "United Kingdom"
     }
 
